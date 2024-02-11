@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    margin: 1.5rem auto;
+
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-side{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+ .board{
+    background-image: url("../Netflix/image 1.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: block; 
+} 
+
+.board-image{
+    display: none;
+}
+
+main{
+    height: 300px;
+    margin: 6rem auto;
+    padding-left: 26rem; 
+}
+
+
+
+.main-header{
+    max-width: 400px;
+    padding: 8px;
+}
+
+.login{
+    display: flex;
+    padding: 2rem;
+}
+
+input{
+    width: 100%;
+    height: 36px;
+}
+
+
+
+.section-one{
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    justify-content: space-around;
+}
+
+.sec-text{
+    padding-top: 8rem;
+    
+}
+
+.section-p{
+    color: #fff;
+    max-width: 350px;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+.section-two{
+    display: flex;
+    border-bottom: 2px solid #333;
+    justify-content: space-around;
+}
+
+.section-three{
+    display: flex;
+    border-bottom: 2px solid #333;
+    justify-content: space-around;
+}
+
+.section-four{
+    display: flex;
+    border-bottom: 2px solid #333;
+    justify-content: space-around;
+}
+
+h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.faqs{
+   border-bottom: 2px solid #333;
+}
+
+.faq-container{
+    margin: 4rem auto;
+    width: 600px;
+}
+
+.faq-main{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    background-color: #333;
+    margin: 1rem;
+    padding: 0.4rem;
+}
+
+.faqs header .faq-main .faq-text .plus img{
+    width: 30px;
+    height: 50px;
+}
+
+.footer-links{
+    height: 300px;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+a{
+    color: #a9a9a9;
+}
+
+li{
+    margin: 0.5rem;
+    padding: 0.8rem;
+}
+
+/* Button Classes */
+
+.eng-btn{
+    color: #fff;
+    border: 2px solid #ccc;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+}
+
+.nav-btn{
+    background-color:  #E50914;
+    border-style: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.get-btn{
+    width: 200px;
+    height: 36px;
+    border-style: none;
+    color: #fff;
+    background-color: #E50914;
+}
+
+/*Text Classes*/
+
+.text-bg{
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.text-sm{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.text-md{
+    color: #fff;
+    font-weight: 600;
+}
+
+.faq-text{
+    color: #fff;
+    padding: 0.5rem;
+}
+
+
+@media (max-width: 376px) {
+    .nav-side{
+        width: 170px;
+        height: 100px;
+    }
+
+    .board{
+        background-image: url("../Netflix/image 1.png");
+        background-size: 500px 376px;
+        background-repeat: no-repeat;
+        display: block; 
+    } 
+
+    main{
+        height: 150px;
+        margin: 2.5rem auto;
+        padding-left: 6rem; 
+    }
+    
+}
